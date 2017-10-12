@@ -81,8 +81,8 @@ Player.prototype.drawBox = function(x, y, width, height, color) {
 
 Player.prototype.checkCollisions = function() {
     var playerBox = {
-        x: this.x,
-        y: this.y,
+        x: this.boxXvalue,
+        y: this.boxYvalue,
         width: this.boxWidth,
         height: this.boxHeight
     };
